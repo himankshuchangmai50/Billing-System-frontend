@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&family=Raleway:wght@300&display=swap");
+.addformwrapper {
+  height: calc(100vh - 70px);
+  display: grid;
+  place-items: center;
+}
+.addform {
+  height: 450px;
+  width: 300px;
+  position: relative;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.productfield {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.productfield p {
+  margin-bottom: 4px;
+  font-family: "Encode Sans SC", sans-serif;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: "Encode Sans SC", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  border-bottom: 1px solid rgb(196, 193, 193);
+  margin-bottom: 10px;
+}
+
+.productfield button {
+  margin-top: 10px;
+  background-color: rgb(24, 37, 95);
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+  cursor:pointer;
+}
+
+.productfield input {
+  outline: none;
+  border: none;
+  background-color: #e5e5e5;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: rgb(2, 2, 39);
+}
+.select{
+  width:200px;
+}

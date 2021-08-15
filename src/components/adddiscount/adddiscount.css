@@ -1,0 +1,77 @@
+.loaddiscountwrapper {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: -30px;
+}
+.loaddiscountwrapperinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.selectcategorywrapper {
+  height: 100px;
+  width: 250px;
+  padding: 10px;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.discountloadproduct {
+  margin-left: 10px;
+  border-radius: 10px;
+  width: 600px;
+  height: 80vh;
+  background-color: white;
+}
+.categorylist {
+  margin-left: 76px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.headerproduct {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 1px;
+  background-color: #75a7a3;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  color: white;
+}
+
+.listdiscountwrapper {
+  border-bottom: 1px dotted rgb(201, 199, 199);
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+} 
+
+.productname {
+  margin: 0px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+.stockcountinp {
+  width: 50px; 
+  height:20px;
+}
+
+.loadproductlistcontainer {
+  height: 70vh;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.btndiscountloadproduct {
+  margin-left: 5px; 
+  margin-right:5px;
+  background-color: rgb(13, 145, 116);
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 8px;
+  color: white;
+}
